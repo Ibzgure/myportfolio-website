@@ -1,92 +1,104 @@
 export const info = {
-  name: "Bart Simpson",
+  name: "Isirri Ibrahim Gure",
   brief_description:
-    "I'm a mischievous full stack developer with a knack for troublemaking.",
+    "Tech Enthusiast | Web & Mobile Developer | Community Leader",
   role: "Full Stack Developer",
-  picture: "/pic.png",
-  picture_alt: "Bart Simpson",
-  location: "Springfield, USA",
-  cv: "/resume.pdf",
+  picture: "/photo.jpg", // replace with your actual profile photo later
+  picture_alt: "Isirri Ibrahim Gure",
+  location: "Nairobi, Kenya",
+  cv: "/Gure resume.pdf", // upload your CV later to make this work
 
   about: {
-    description: `I'm a full stack developer with a passion for causing a little chaos in web development.
-    I have a solid foundation in computer science, although I prefer skateboarding over studying.
-    I excel in building web applications using React, Node.js, and MongoDB.
-    I'm known for my sharp wit and quick thinking, traits that serve me well in coding and pranks alike.
-    Looking for a challenge? Let's create something memorable together.`,
+    description: `Motivated and purpose-driven tech enthusiast with hands-on experience in web & mobile development and community leadership. Passionate about leveraging technology to create inclusive, user-centered solutions while continually growing in fields like AI/ML and software innovation. Proven ability to lead initiatives, manage projects, and contribute meaningfully to teams.`,
+
     education: [
       {
-        title: "Self-Taught Developer Extraordinaire",
-        date: "2000 - Present",
-        location: "Springfield Elementary School of Hard Knocks",
-        gpa: "4.0 (A+ in Pranks)",
-        thesis: "The Art of Subverting Expectations: A Practical Guide",
-      },
-    ],
-    experience: [
-      {
-        title: "Frontend Developer",
-        date: "2015 - Present",
-        location: "Krusty Burger Web Dev",
-        description:
-          "Crafted interactive web experiences using React and Redux. Often multitasked between coding and avoiding Principal Skinner.",
+        title: "BSc in Information Technology",
+        date: "2021 – 2025",
+        location: "Kabarak University",
+        gpa: "",
+        thesis: "",
       },
       {
-        title: "Backend Bandit",
-        date: "2013 - 2015",
-        location: "Comic Book Guy's Software Emporium",
-        description:
-          "Masterminded backend solutions using Node.js and MongoDB. Surprisingly good at debugging, considering my history of causing bugs.",
-      },
-      {
-        title: "Junior Hacker",
-        date: "2010 - 2013",
-        location: "Springfield Elementary Cyber Club",
-        description:
-          "Pioneered early web exploits, leading the club in daring coding escapades. Was disciplined for hacking the school's grading system.",
+        title: "Software Development Bootcamp",
+        date: "2022 – 2023",
+        location: "Power Learn Project Africa",
+        gpa: "",
+        thesis: "",
       },
     ],
 
-    skills: ["JavaScript", "React", "Node.js", "MongoDB", "Prank Mastery"], // not used yet
+    experience: [
+      {
+        title: "Nakuru City Lead",
+        date: "Aug 2023 – Jun 2025",
+        location: "She Codes Africa",
+        description:
+          "Led community initiatives supporting women in technology through engagement, events, and mentorship.",
+      },
+      {
+        title: "Student Attaché",
+        date: "Jan 2025 – Apr 2025",
+        location: "Office of the Data Protection Commissioner (ODPC)",
+        description:
+          "Assisted in secure client onboarding processes under Kenya’s Data Protection Act, gaining hands-on exposure to compliance and data security practices.",
+      },
+      {
+        title: "Campus Director",
+        date: "Sep 2023 – Dec 2023",
+        location: "Millennium Fellowship",
+        description:
+          "Implemented leadership and community projects focused on sustainability and student engagement.",
+      },
+    ],
+
+    skills: [
+      "HTML, CSS, JavaScript",
+      "Flutter & Dart (Mobile Development)",
+      "Responsive Web Design",
+      "Problem Solving & Debugging",
+      "Communication & Team Collaboration",
+      "Adaptability & Continuous Learning",
+    ],
   },
 
   projects: [
     {
-      title: "Bart's Prank Portfolio",
+      title: "Portfolio Website",
+      date: "2025",
+      description:
+        "Personal portfolio site built with Astro, React, and TailwindCSS to showcase my projects, skills, and experiences.",
+      link: "https://github.com/Ibzgure/myportfolio-website",
+      tech: ["Astro", "React", "TailwindCSS"],
+      img_alt: "Portfolio Website",
+      img_path: "/portfolio.png",
+    },
+    {
+      title: "Task Management System",
+      date: "2025",
+      description:
+        "A task management system built with Laravel and Vue.js for managing users, tasks, deadlines, and email notifications.",
+      link: "https://github.com/Ibzgure/task-manager", // placeholder, update later
+      tech: ["Laravel", "Vue.js", "MySQL"],
+      img_alt: "Task Management System",
+      img_path: "/task.png",
+    },
+    {
+      title: "Flutter Mobile App",
       date: "2024",
       description:
-        "An interactive portfolio website showcasing my mischievous coding projects.",
-      link: "https://github.com/bartsimpsonfake/prank-portfolio",
-      tech: ["React", "Node.js", "MongoDB", "Sarcasm.js"],
-      img_alt: "Bart's Portfolio",
-      img_path: "/simpsons.png",
-    },
-    {
-      title: "Skateboard Shop",
-      date: "2023",
-      description:
-        "An e-commerce site selling skateboards and prank supplies. No bullies allowed!",
-      link: "https://github.com/bartsimpsonfake/skate-shop",
-      tech: ["React", "Node.js", "MongoDB", "Skateboard.js"],
-      img_alt: "Skateboard Shop",
-      img_path: "skateboard.png",
-    },
-    {
-      title: "Comic Book Club",
-      date: "2022",
-      description:
-        "A platform for comic book enthusiasts to discuss and share their collections.",
-      link: "https://github.com/bartsimpsonfake/comic-club",
-      tech: ["React", "Node.js", "MongoDB", "Comic.js"],
-      img_alt: "Comic Book Club",
-      img_path: "comics.png",
+        "Mobile app built using Flutter & Dart with focus on responsive design and great user experience.",
+      link: "https://github.com/Ibzgure/flutter-app", // placeholder
+      tech: ["Flutter", "Dart", "Firebase"],
+      img_alt: "Flutter App",
+      img_path: "/flutter.png",
     },
   ],
 
   contact: {
-    email: "bart@thesimpsons.com",
-    linkedin: "https://www.linkedin.com/in/bartsimpsonfake",
-    github: "https://www.github.com/gio-del",
-    twitter: "https://www.twitter.com/bartsimpsonfake",
+    email: "isirgure@gmail.com",
+    linkedin: "https://www.linkedin.com/in/gure-ibrahim-923981270/",
+    github: "https://github.com/Ibzgure",
+    twitter: "", // leave blank if not ready
   },
 };
